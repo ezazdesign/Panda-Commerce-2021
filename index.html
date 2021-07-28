@@ -13,6 +13,11 @@
       .slide{
         margin-top: 100px;
       }
+
+      .fblink{
+        text-decoration: none;
+        color: inherit;
+      }
     </style>
 
 </head>
@@ -34,13 +39,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoe">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#back">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subs">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -133,7 +138,7 @@
       <!-- Categories End -->
 
       <!-- Shoe section start-->
-      <section class="container mb-5">
+      <section class="container mb-5" id="shoe">
         <h2>Shoes</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -177,7 +182,7 @@
       <!-- Shoe section end -->
 
       <!-- bags section start -->
-      <section class="container mb-5">
+      <section class="container mb-5" id="back">
         <h2>Backpack</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -222,20 +227,23 @@
       <!-- bags section end -->
 
       <!-- subscribe Section start-->
-
-
-
-      
+      <section class="container d-flex justify-content-center bg-info align-items-center p-5 rounded-3 my-5" id="subs">
+        <div>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales, specials and more.</p>
+          <input class="form-control" type="text" placeholder="Your Email">
+          <br>
+          <button class="btn btn-warning">SUBMIT</button>
+        </div>
+      </section>
       <!-- subscribe Section end-->
 
     </main>
     <!-- Main Section End -->
 
     <!-- Footer Section Start -->
-    <footer>
-      <footer class="text-center text-info">
-        <small> <b>Panda Commerce ©2021.</b> <i>All rights reserved by</i> <b>Ezaz Ahmed.</b> </small>
-      </footer>
+    <footer class="text-center text-info bg-light">
+        <small> <b>Panda Commerce ©2021.</b> <i>All rights reserved by</i> <a class="fblink" href="https://www.facebook.com/techezaz"><b>Ezaz Ahmed.</b></a> </small>
     </footer>
     <!-- Footer Section End -->
 
